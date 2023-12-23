@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENSC351 Garden Irrigation</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Automated Garden Irrigation System</h1>
+    <div class="squares-container">
+      <div class="square">
+        <div class="header-container">
+          <h2 id="tempHeader">Temperature</h2>
+            <div class="headerData-container">
+              <h3 id="tempData">°C</h3>
+              </div>
+        </div>
+      </div>
+      <div class="square">
+        <div class="header-container">
+          <h2 id="lastWaterHeader">Last Watered:</h2>
+          <div class="headerData-container">
+            <h3 id="lastWater"></h3>
+            </div>
+        </div>
+      </div>
+      <div class="mirrored-square">
+        <div class="header-container mirrored-header-container">
+          <h2 id="soilHeader">Soil Moisture</h2>
+          <div class="headerData-container">
+            <h3 id="soilMoistureData">%</h3>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="names-header">
+      <h3 id="Jordan">Jordan Kwok<br> Hugo Kwon<br>Kabir Heer</h3>
+    </div>
+  </div>
+  <button id="waterButton">Water Now</button>
+  <h2 id="time"></h3>
+
+  <script src="/script.js"></script>
+</body>
+</html>
